@@ -35,6 +35,15 @@ div.spin {
     width: max-content;
 }
 
+div.fix-link {
+    z-index: 101;
+    pointer-events: none;
+}
+
+a {
+    pointer-events: auto;
+}
+
 img#small-crane {
     height: 128px;
 }
